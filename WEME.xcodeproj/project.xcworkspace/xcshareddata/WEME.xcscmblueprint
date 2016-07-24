@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A0E920D2FD8718A3D31E3B8D7FB8CB49058197C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "dccf605e-313f-11e6-b093-65e36a1a90aa" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A0E920D2FD8718A3D31E3B8D7FB8CB49058197C3" : 0,
+    "dccf605e-313f-11e6-b093-65e36a1a90aa" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "20E79CEB-449A-4F10-A9EC-08D77B90D377",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A0E920D2FD8718A3D31E3B8D7FB8CB49058197C3" : "weme\/",
+    "dccf605e-313f-11e6-b093-65e36a1a90aa" : "..\/..\/..\/Downloads\/QZTabBarController_proj"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WEME",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WEME.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LiewLi\/WEME.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0E920D2FD8718A3D31E3B8D7FB8CB49058197C3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tc-svn.tencent.com\/components\/QZTabBarController_proj",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "dccf605e-313f-11e6-b093-65e36a1a90aa"
+    }
+  ]
+}
