@@ -1295,6 +1295,7 @@
 				B105C9FC1C23DB1600E946D8 /* Classes */,
 			);
 			name = MWPhotoBrowser;
+			path = seu;
 			sourceTree = "<group>";
 		};
 		B105C9D91C23DB1600E946D8 /* Assets */ = {
@@ -1379,9 +1380,15 @@
 		B105CA4A1C2ACCC300E946D8 /* System Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1F7E3401CBFE97800CBDD1D /* NotificationCenter.framework */,
+				B1D2084A1C43E29A008E69A9 /* AMapSearchKit.framework */,
+				B15F68DE1C4F5B8F00804D85 /* AudioToolbox.framework */,
+				B15F68E01C4F5B9600804D85 /* Accelerate.framework */,
+				B15F68E21C4F5BA500804D85 /* GLKit.framework */,
 				B189503D1C1B036600645482 /* CoreTelephony.framework */,
 				B189503F1C1B039400645482 /* SystemConfiguration.framework */,
 				B18950411C1B03BA00645482 /* libsqlite3.0.tbd */,
+				B1B02A7F1D4345FA00CD1CC9 /* libc++.tbd */,
 				B189501E1C1AF6DD00645482 /* libz.tbd */,
 			);
 			name = "System Frameworks";
@@ -1424,6 +1431,7 @@
 				B1279AC71C17E8D000E14D08 /* KxMenu.m */,
 			);
 			name = kxMenu;
+			path = seu;
 			sourceTree = "<group>";
 		};
 		B12CB2591C478E74003A191F /* QRCodeReader */ = {
@@ -1457,6 +1465,11 @@
 		B13DE9691BF0487F0042331A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B105C9D81C23DAD700E946D8 /* MWPhotoBrowser */,
+				B18950461C1C08BF00645482 /* IBActionSheet */,
+				B1279AC51C17E88800E14D08 /* kxMenu */,
+				B17CF8851C05E9290074FF3F /* Input */,
+				B19A9ABC1BF0732400EE58DB /* CustomBadge */,
 				B144F86D1D44FE1900080698 /* GMImagePicker */,
 				B1B02B741D4350D100CD1CC9 /* TabVC */,
 				B1CB953A1C8D99B900CC2CCC /* Fonts */,
@@ -1468,12 +1481,7 @@
 				B144F7CB1D44FD5100080698 /* MBProgressHUD */,
 				B144F7E11D44FD8500080698 /* WebImage */,
 				B144F8381D44FDC800080698 /* RSKImageCropper */,
-				B1B02A7F1D4345FA00CD1CC9 /* libc++.tbd */,
-				B15F68E21C4F5BA500804D85 /* GLKit.framework */,
-				B15F68E01C4F5B9600804D85 /* Accelerate.framework */,
-				B15F68DE1C4F5B8F00804D85 /* AudioToolbox.framework */,
 				B12CB2591C478E74003A191F /* QRCodeReader */,
-				B1D2084A1C43E29A008E69A9 /* AMapSearchKit.framework */,
 				B1019F911C420CF200EBEB23 /* BubbleTransition */,
 				B1D03C1C1BCE59D100DF0B44 /* Alamofire */,
 				B1AE744F1BD514EC0014BE12 /* ImagePickerSheetController */,
@@ -1481,7 +1489,6 @@
 				B1A4E95B1BDA041E00EF0CD1 /* Agrume */,
 				B10759A11BEB7E9E00FEC0A0 /* CAPSPageMenu */,
 				B10759A41BEC518C00FEC0A0 /* SnapKit */,
-				B1F7E3401CBFE97800CBDD1D /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2010,6 +2017,7 @@
 				B17CF8861C05E93B0074FF3F /* input bar */,
 			);
 			name = Input;
+			path = seu;
 			sourceTree = "<group>";
 		};
 		B17CF8861C05E93B0074FF3F /* input bar */ = {
@@ -2125,18 +2133,6 @@
 				B18950481C1C08D000645482 /* IBActionSheet.m */,
 			);
 			name = IBActionSheet;
-			sourceTree = "<group>";
-		};
-		B19A9AB51BF072DB00EE58DB /* ObjC-frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B105C9D81C23DAD700E946D8 /* MWPhotoBrowser */,
-				B18950461C1C08BF00645482 /* IBActionSheet */,
-				B1279AC51C17E88800E14D08 /* kxMenu */,
-				B17CF8851C05E9290074FF3F /* Input */,
-				B19A9ABC1BF0732400EE58DB /* CustomBadge */,
-			);
-			name = "ObjC-frameworks";
 			path = seu;
 			sourceTree = "<group>";
 		};
@@ -2149,6 +2145,7 @@
 				B19A9AB91BF072F000EE58DB /* CustomBadge.m */,
 			);
 			name = CustomBadge;
+			path = seu;
 			sourceTree = "<group>";
 		};
 		B19F9A351BD8AB340008CA12 /* Utility */ = {
@@ -2274,7 +2271,6 @@
 			isa = PBXGroup;
 			children = (
 				B13DE9691BF0487F0042331A /* Frameworks */,
-				B19A9AB51BF072DB00EE58DB /* ObjC-frameworks */,
 				B105CA4A1C2ACCC300E946D8 /* System Frameworks */,
 				B1FC43461B9FC25700133869 /* WEME */,
 				B1FC435C1B9FC25700133869 /* seuTests */,
@@ -4409,6 +4405,7 @@
 				B144F60C1D44FB4800080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B144F62B1D44FC0000080698 /* Build configuration list for PBXNativeTarget "Mantle" */ = {
 			isa = XCConfigurationList;
@@ -4418,6 +4415,7 @@
 				B144F62E1D44FC0000080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B144F6841D44FC5100080698 /* Build configuration list for PBXNativeTarget "EZAudioIOS" */ = {
 			isa = XCConfigurationList;
@@ -4427,6 +4425,7 @@
 				B144F6871D44FC5100080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B144F6E41D44FCB900080698 /* Build configuration list for PBXNativeTarget "QRCode" */ = {
 			isa = XCConfigurationList;
@@ -4436,6 +4435,7 @@
 				B144F6E71D44FCB900080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B144F6FE1D44FD0400080698 /* Build configuration list for PBXNativeTarget "Charts" */ = {
 			isa = XCConfigurationList;
@@ -4445,6 +4445,7 @@
 				B144F7011D44FD0400080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B144F7D31D44FD5100080698 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
@@ -4454,6 +4455,7 @@
 				B144F7D61D44FD5100080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B144F7E91D44FD8600080698 /* Build configuration list for PBXNativeTarget "WebImage" */ = {
 			isa = XCConfigurationList;
@@ -4463,6 +4465,7 @@
 				B144F7EC1D44FD8600080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B144F8401D44FDC800080698 /* Build configuration list for PBXNativeTarget "RSKImageCropper" */ = {
 			isa = XCConfigurationList;
@@ -4472,6 +4475,7 @@
 				B144F8431D44FDC800080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B144F8751D44FE1900080698 /* Build configuration list for PBXNativeTarget "GMImagePicker" */ = {
 			isa = XCConfigurationList;
@@ -4481,6 +4485,7 @@
 				B144F8781D44FE1900080698 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1FC433F1B9FC25700133869 /* Build configuration list for PBXProject "WEME" */ = {
 			isa = XCConfigurationList;
