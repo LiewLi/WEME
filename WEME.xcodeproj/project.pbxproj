@@ -109,7 +109,6 @@
 		B12FB3931C04849200566266 /* ComposePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FB3921C04849200566266 /* ComposePost.swift */; };
 		B144F6031D44FB4800080698 /* LiquidFloatingActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F6021D44FB4800080698 /* LiquidFloatingActionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F6071D44FB4800080698 /* LiquidFloatingActionButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6001D44FB4800080698 /* LiquidFloatingActionButton.framework */; };
-		B144F6081D44FB4800080698 /* LiquidFloatingActionButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6001D44FB4800080698 /* LiquidFloatingActionButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F6151D44FB8B00080698 /* ArrayEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F60D1D44FB8B00080698 /* ArrayEx.swift */; };
 		B144F6161D44FB8B00080698 /* CGPointEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F60E1D44FB8B00080698 /* CGPointEx.swift */; };
 		B144F6171D44FB8B00080698 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F60F1D44FB8B00080698 /* CGRectEx.swift */; };
@@ -119,7 +118,6 @@
 		B144F61B1D44FB8B00080698 /* SimpleCircleLiquidEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F6131D44FB8B00080698 /* SimpleCircleLiquidEngine.swift */; };
 		B144F61C1D44FB8B00080698 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F6141D44FB8B00080698 /* UIColorEx.swift */; };
 		B144F6291D44FC0000080698 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6221D44FBFF00080698 /* Mantle.framework */; };
-		B144F62A1D44FC0000080698 /* Mantle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6221D44FBFF00080698 /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F6531D44FC2C00080698 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F6301D44FC2C00080698 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F6541D44FC2C00080698 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F6311D44FC2C00080698 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F6551D44FC2C00080698 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F6321D44FC2C00080698 /* EXTRuntimeExtensions.m */; };
@@ -156,7 +154,6 @@
 		B144F6741D44FC2C00080698 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F6511D44FC2C00080698 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F6751D44FC2C00080698 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F6521D44FC2C00080698 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; };
 		B144F6821D44FC5100080698 /* EZAudioIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F67B1D44FC5000080698 /* EZAudioIOS.framework */; };
-		B144F6831D44FC5100080698 /* EZAudioIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F67B1D44FC5000080698 /* EZAudioIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F6B01D44FC9300080698 /* EZAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F6891D44FC9300080698 /* EZAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F6B11D44FC9300080698 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F68A1D44FC9300080698 /* EZAudio.m */; };
 		B144F6B21D44FC9300080698 /* EZAudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F68B1D44FC9300080698 /* EZAudioDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -196,13 +193,11 @@
 		B144F6D41D44FC9300080698 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = B144F6AE1D44FC9300080698 /* VERSION */; };
 		B144F6D51D44FC9300080698 /* EZAudioiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F6AF1D44FC9300080698 /* EZAudioiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F6E21D44FCB900080698 /* QRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6DB1D44FCB900080698 /* QRCode.framework */; };
-		B144F6E31D44FCB900080698 /* QRCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6DB1D44FCB900080698 /* QRCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F6EC1D44FCE300080698 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F6E81D44FCE300080698 /* CIColorExtension.swift */; };
 		B144F6ED1D44FCE300080698 /* QRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F6E91D44FCE300080698 /* QRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F6EE1D44FCE300080698 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F6EA1D44FCE300080698 /* QRCode.swift */; };
 		B144F6EF1D44FCE300080698 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F6EB1D44FCE300080698 /* UIImageViewExtension.swift */; };
 		B144F6FC1D44FD0400080698 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6F51D44FD0400080698 /* Charts.framework */; };
-		B144F6FD1D44FD0400080698 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6F51D44FD0400080698 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F7691D44FD2400080698 /* Charts.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F7021D44FD2400080698 /* Charts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F76A1D44FD2500080698 /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F7051D44FD2400080698 /* ChartAnimationEasing.swift */; };
 		B144F76B1D44FD2500080698 /* ChartAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F7061D44FD2400080698 /* ChartAnimator.swift */; };
@@ -296,11 +291,9 @@
 		B144F7C31D44FD2500080698 /* ChartUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F7671D44FD2400080698 /* ChartUtils.swift */; };
 		B144F7C41D44FD2500080698 /* ChartViewPortHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144F7681D44FD2400080698 /* ChartViewPortHandler.swift */; };
 		B144F7D11D44FD5100080698 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F7CA1D44FD5100080698 /* MBProgressHUD.framework */; };
-		B144F7D21D44FD5100080698 /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F7CA1D44FD5100080698 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F7D91D44FD6E00080698 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F7D71D44FD6E00080698 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F7DA1D44FD6E00080698 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F7D81D44FD6E00080698 /* MBProgressHUD.m */; };
 		B144F7E71D44FD8600080698 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F7E01D44FD8500080698 /* WebImage.framework */; };
-		B144F7E81D44FD8600080698 /* WebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F7E01D44FD8500080698 /* WebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F8101D44FDAA00080698 /* MKAnnotationView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F7EE1D44FDAA00080698 /* MKAnnotationView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F8111D44FDAA00080698 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F7EF1D44FDAA00080698 /* MKAnnotationView+WebCache.m */; };
 		B144F8121D44FDAA00080698 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F7F01D44FDAA00080698 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -336,7 +329,6 @@
 		B144F8301D44FDAA00080698 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F80E1D44FDAA00080698 /* UIView+WebCacheOperation.m */; };
 		B144F8311D44FDAA00080698 /* WebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F80F1D44FDAA00080698 /* WebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F83E1D44FDC800080698 /* RSKImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F8371D44FDC800080698 /* RSKImageCropper.framework */; };
-		B144F83F1D44FDC800080698 /* RSKImageCropper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F8371D44FDC800080698 /* RSKImageCropper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F8561D44FDE400080698 /* CGGeometry+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F8451D44FDE400080698 /* CGGeometry+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F8571D44FDE400080698 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F8461D44FDE400080698 /* CGGeometry+RSKImageCropper.m */; };
 		B144F8581D44FDE400080698 /* RSKImageCropperStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B144F8471D44FDE400080698 /* RSKImageCropperStrings.bundle */; };
@@ -355,7 +347,6 @@
 		B144F8651D44FDE400080698 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F8541D44FDE400080698 /* UIImage+RSKImageCropper.m */; };
 		B144F8661D44FDE400080698 /* RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F8551D44FDE400080698 /* RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F8731D44FE1900080698 /* GMImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F86C1D44FE1900080698 /* GMImagePicker.framework */; };
-		B144F8741D44FE1900080698 /* GMImagePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F86C1D44FE1900080698 /* GMImagePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B144F8951D44FE4000080698 /* GMImagePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = B144F87A1D44FE4000080698 /* GMImagePicker.strings */; };
 		B144F8961D44FE4000080698 /* GMAlbumsViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B144F8811D44FE4000080698 /* GMAlbumsViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B144F8971D44FE4000080698 /* GMAlbumsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B144F8821D44FE4000080698 /* GMAlbumsViewCell.m */; };
@@ -445,7 +436,6 @@
 		B1CB95371C8D6D0400CC2CCC /* LikeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CB95361C8D6D0400CC2CCC /* LikeVC.swift */; };
 		B1CB953E1C8D9D4A00CC2CCC /* ScriptinaPro.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1CB953C1C8D9C9700CC2CCC /* ScriptinaPro.otf */; };
 		B1CCB85C1D435C8A007B0193 /* TabVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B02BA11D4350D100CD1CC9 /* TabVC.framework */; };
-		B1CCB85D1D435C90007B0193 /* TabVC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1B02BA11D4350D100CD1CC9 /* TabVC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B1CCB85F1D4369F5007B0193 /* Infomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCB85E1D4369F5007B0193 /* Infomation.swift */; };
 		B1CCB8611D438A7F007B0193 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCB8601D438A7F007B0193 /* Timeline.swift */; };
 		B1CCB8631D438F33007B0193 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCB8621D438F33007B0193 /* Album.swift */; };
@@ -578,16 +568,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B144F6081D44FB4800080698 /* LiquidFloatingActionButton.framework in Embed Frameworks */,
-				B144F83F1D44FDC800080698 /* RSKImageCropper.framework in Embed Frameworks */,
-				B144F8741D44FE1900080698 /* GMImagePicker.framework in Embed Frameworks */,
-				B144F7E81D44FD8600080698 /* WebImage.framework in Embed Frameworks */,
-				B1CCB85D1D435C90007B0193 /* TabVC.framework in Embed Frameworks */,
-				B144F6831D44FC5100080698 /* EZAudioIOS.framework in Embed Frameworks */,
-				B144F7D21D44FD5100080698 /* MBProgressHUD.framework in Embed Frameworks */,
-				B144F62A1D44FC0000080698 /* Mantle.framework in Embed Frameworks */,
-				B144F6E31D44FCB900080698 /* QRCode.framework in Embed Frameworks */,
-				B144F6FD1D44FD0400080698 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4140,8 +4120,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -4171,7 +4151,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "seu/seu-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Distribution;
 		};
@@ -4281,8 +4261,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -4312,7 +4292,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "seu/seu-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -4321,8 +4301,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -4352,7 +4332,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "seu/seu-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
