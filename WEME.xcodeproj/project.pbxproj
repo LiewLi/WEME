@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F205A371D4702BC000EFAD2 /* LiquidFloatingActionButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6001D44FB4800080698 /* LiquidFloatingActionButton.framework */; };
+		5F205A381D4702BC000EFAD2 /* LiquidFloatingActionButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6001D44FB4800080698 /* LiquidFloatingActionButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A391D4702BC000EFAD2 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6221D44FBFF00080698 /* Mantle.framework */; };
+		5F205A3A1D4702BC000EFAD2 /* Mantle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6221D44FBFF00080698 /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A3B1D4702BC000EFAD2 /* EZAudioIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F67B1D44FC5000080698 /* EZAudioIOS.framework */; };
+		5F205A3C1D4702BC000EFAD2 /* EZAudioIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F67B1D44FC5000080698 /* EZAudioIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A3D1D4702BC000EFAD2 /* QRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6DB1D44FCB900080698 /* QRCode.framework */; };
+		5F205A3E1D4702BC000EFAD2 /* QRCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6DB1D44FCB900080698 /* QRCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A3F1D4702BC000EFAD2 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6F51D44FD0400080698 /* Charts.framework */; };
+		5F205A401D4702BC000EFAD2 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F6F51D44FD0400080698 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A411D4702BC000EFAD2 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F7CA1D44FD5100080698 /* MBProgressHUD.framework */; };
+		5F205A421D4702BC000EFAD2 /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F7CA1D44FD5100080698 /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A431D4702BC000EFAD2 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F7E01D44FD8500080698 /* WebImage.framework */; };
+		5F205A441D4702BC000EFAD2 /* WebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F7E01D44FD8500080698 /* WebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A451D4702BC000EFAD2 /* RSKImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F8371D44FDC800080698 /* RSKImageCropper.framework */; };
+		5F205A461D4702BC000EFAD2 /* RSKImageCropper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F8371D44FDC800080698 /* RSKImageCropper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A471D4702BC000EFAD2 /* GMImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B144F86C1D44FE1900080698 /* GMImagePicker.framework */; };
+		5F205A481D4702BC000EFAD2 /* GMImagePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B144F86C1D44FE1900080698 /* GMImagePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F205A491D4702DA000EFAD2 /* TabVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B02BA11D4350D100CD1CC9 /* TabVC.framework */; };
+		5F205A4A1D4702DA000EFAD2 /* TabVC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1B02BA11D4350D100CD1CC9 /* TabVC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B1019F891C420BFB00EBEB23 /* ActivityEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1019F801C420BFB00EBEB23 /* ActivityEdit.swift */; };
 		B1019F8A1C420BFB00EBEB23 /* AlertTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1019F811C420BFB00EBEB23 /* AlertTextView.swift */; };
 		B1019F8B1C420BFB00EBEB23 /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1019F821C420BFB00EBEB23 /* BubbleTransition.swift */; };
@@ -475,6 +495,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5F205A4B1D4702DA000EFAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1B02B911D4350D100CD1CC9 /* TabVC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B1B02AD21D434B2000CD1CC9;
+			remoteInfo = TabVC;
+		};
 		B144F6051D44FB4800080698 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B1FC433C1B9FC25700133869 /* Project object */;
@@ -568,6 +595,16 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5F205A481D4702BC000EFAD2 /* GMImagePicker.framework in Embed Frameworks */,
+				5F205A381D4702BC000EFAD2 /* LiquidFloatingActionButton.framework in Embed Frameworks */,
+				5F205A3A1D4702BC000EFAD2 /* Mantle.framework in Embed Frameworks */,
+				5F205A4A1D4702DA000EFAD2 /* TabVC.framework in Embed Frameworks */,
+				5F205A421D4702BC000EFAD2 /* MBProgressHUD.framework in Embed Frameworks */,
+				5F205A461D4702BC000EFAD2 /* RSKImageCropper.framework in Embed Frameworks */,
+				5F205A401D4702BC000EFAD2 /* Charts.framework in Embed Frameworks */,
+				5F205A441D4702BC000EFAD2 /* WebImage.framework in Embed Frameworks */,
+				5F205A3E1D4702BC000EFAD2 /* QRCode.framework in Embed Frameworks */,
+				5F205A3C1D4702BC000EFAD2 /* EZAudioIOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1198,15 +1235,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F205A371D4702BC000EFAD2 /* LiquidFloatingActionButton.framework in Frameworks */,
 				B1CCB85C1D435C8A007B0193 /* TabVC.framework in Frameworks */,
+				5F205A451D4702BC000EFAD2 /* RSKImageCropper.framework in Frameworks */,
+				5F205A391D4702BC000EFAD2 /* Mantle.framework in Frameworks */,
 				B1B02A801D4345FA00CD1CC9 /* libc++.tbd in Frameworks */,
 				B15F68E31C4F5BA500804D85 /* GLKit.framework in Frameworks */,
 				B144F6FC1D44FD0400080698 /* Charts.framework in Frameworks */,
 				B15F68E11C4F5B9600804D85 /* Accelerate.framework in Frameworks */,
 				B15F68DF1C4F5B8F00804D85 /* AudioToolbox.framework in Frameworks */,
+				5F205A491D4702DA000EFAD2 /* TabVC.framework in Frameworks */,
 				B144F6E21D44FCB900080698 /* QRCode.framework in Frameworks */,
 				B18950421C1B03BA00645482 /* libsqlite3.0.tbd in Frameworks */,
 				B18950401C1B039400645482 /* SystemConfiguration.framework in Frameworks */,
+				5F205A471D4702BC000EFAD2 /* GMImagePicker.framework in Frameworks */,
+				5F205A431D4702BC000EFAD2 /* WebImage.framework in Frameworks */,
 				B189503E1C1B036600645482 /* CoreTelephony.framework in Frameworks */,
 				B144F6071D44FB4800080698 /* LiquidFloatingActionButton.framework in Frameworks */,
 				B144F83E1D44FDC800080698 /* RSKImageCropper.framework in Frameworks */,
@@ -1216,6 +1259,10 @@
 				B1D2084B1C43E29A008E69A9 /* AMapSearchKit.framework in Frameworks */,
 				B144F6821D44FC5100080698 /* EZAudioIOS.framework in Frameworks */,
 				B144F6291D44FC0000080698 /* Mantle.framework in Frameworks */,
+				5F205A411D4702BC000EFAD2 /* MBProgressHUD.framework in Frameworks */,
+				5F205A3B1D4702BC000EFAD2 /* EZAudioIOS.framework in Frameworks */,
+				5F205A3F1D4702BC000EFAD2 /* Charts.framework in Frameworks */,
+				5F205A3D1D4702BC000EFAD2 /* QRCode.framework in Frameworks */,
 				B144F8731D44FE1900080698 /* GMImagePicker.framework in Frameworks */,
 				B144F7E71D44FD8600080698 /* WebImage.framework in Frameworks */,
 				B18950281C1AFF7300645482 /* libWeChatSDK.a in Frameworks */,
@@ -2669,6 +2716,7 @@
 				B144F7E61D44FD8600080698 /* PBXTargetDependency */,
 				B144F83D1D44FDC800080698 /* PBXTargetDependency */,
 				B144F8721D44FE1900080698 /* PBXTargetDependency */,
+				5F205A4C1D4702DA000EFAD2 /* PBXTargetDependency */,
 			);
 			name = WEME;
 			productName = seu;
@@ -3335,6 +3383,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5F205A4C1D4702DA000EFAD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TabVC;
+			targetProxy = 5F205A4B1D4702DA000EFAD2 /* PBXContainerItemProxy */;
+		};
 		B144F6061D44FB4800080698 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B144F5FF1D44FB4800080698 /* LiquidFloatingActionButton */;
@@ -3417,8 +3470,8 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -3429,6 +3482,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.liewli.LiquidFloatingActionButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -3444,8 +3498,8 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3455,6 +3509,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.liewli.LiquidFloatingActionButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -3469,8 +3524,8 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3480,6 +3535,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.liewli.LiquidFloatingActionButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -3493,8 +3549,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -3518,8 +3574,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3542,8 +3598,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3566,8 +3622,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -3591,8 +3647,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3615,8 +3671,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3640,8 +3696,8 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -3667,8 +3723,8 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3692,8 +3748,8 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3716,8 +3772,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -3741,8 +3797,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3765,8 +3821,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3789,8 +3845,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -3814,8 +3870,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3838,8 +3894,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3862,8 +3918,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -3887,8 +3943,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3911,8 +3967,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3935,8 +3991,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -3960,8 +4016,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3984,8 +4040,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -4008,8 +4064,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -4033,8 +4089,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -4057,8 +4113,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Liu (Y5V424Y368)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Liu (Y5V424Y368)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
